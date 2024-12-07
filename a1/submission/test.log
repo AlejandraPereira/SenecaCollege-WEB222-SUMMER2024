@@ -1,0 +1,1932 @@
+
+> web222-assignment-1@6.0.0 test
+> jest --
+
+jest-haste-map: Haste module naming collision: web222-assignment-1
+  The following files share their name; please adjust your hasteImpl:
+    * <rootDir>/package.json
+    * <rootDir>/submission/package.json
+
+PASS src/problem-08.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-04.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-03.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-07.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-06.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-05.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-02.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-01.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+PASS src/problem-00.test.js
+  ● Console
+
+    console.log
+      Hello Hello WEB222 Student!!
+
+      at Object.log (src/solutions.js:109:9)
+
+    console.log
+      variable
+
+      at Object.log (src/solutions.js:158:9)
+
+    console.log
+      variableName
+
+      at Object.log (src/solutions.js:159:9)
+
+    console.log
+      VariableName
+
+      at Object.log (src/solutions.js:160:9)
+
+    console.log
+      longVariableName
+
+      at Object.log (src/solutions.js:161:9)
+
+    console.log
+      multipleDashes
+
+      at Object.log (src/solutions.js:162:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:259:9)
+
+    console.log
+      <link rel=stylesheet href=styles.css>
+
+      at Object.log (src/solutions.js:260:9)
+
+    console.log
+      (13, 30, 0)
+
+      at Object.log (src/solutions.js:489:9)
+
+    console.log
+      (1, 30, 0)
+
+      at Object.log (src/solutions.js:490:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:491:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:492:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:493:9)
+
+    console.log
+      null
+
+      at Object.log (src/solutions.js:494:9)
+
+    console.log
+      [(16, 26, 24)]
+
+      at Object.log (src/solutions.js:529:9)
+
+    console.log
+      [(1, 16, 24), (1, 16, 25), (1, 16, 26)]
+
+      at Object.log (src/solutions.js:530:9)
+
+    console.log
+      [(16, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:531:9)
+
+    console.log
+      [(4, 16, 24), (4, 16, 25)]
+
+      at Object.log (src/solutions.js:532:9)
+
+    console.log
+      []
+
+      at Object.log (src/solutions.js:533:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:601:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:602:9)
+
+    console.log
+      text/html
+
+      at Object.log (src/solutions.js:603:9)
+
+    console.log
+      text/css
+
+      at Object.log (src/solutions.js:604:9)
+
+    console.log
+      application/javascript
+
+      at Object.log (src/solutions.js:605:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:606:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:607:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:608:9)
+
+    console.log
+      image/gif
+
+      at Object.log (src/solutions.js:609:9)
+
+    console.log
+      image/bmp
+
+      at Object.log (src/solutions.js:610:9)
+
+    console.log
+      image/svg+xml
+
+      at Object.log (src/solutions.js:611:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:612:9)
+
+    console.log
+      application/xml
+
+      at Object.log (src/solutions.js:613:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:614:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:615:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:616:9)
+
+    console.log
+      image/jpeg
+
+      at Object.log (src/solutions.js:617:9)
+
+    console.log
+      text/csv
+
+      at Object.log (src/solutions.js:618:9)
+
+    console.log
+      text/plain
+
+      at Object.log (src/solutions.js:619:9)
+
+    console.log
+      image/png
+
+      at Object.log (src/solutions.js:620:9)
+
+    console.log
+      application/json
+
+      at Object.log (src/solutions.js:621:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:622:9)
+
+    console.log
+      application/octet-stream
+
+      at Object.log (src/solutions.js:623:9)
+
+
+Test Suites: 9 passed, 9 total
+Tests:       65 passed, 65 total
+Snapshots:   0 total
+Time:        1.164 s
+Ran all test suites.

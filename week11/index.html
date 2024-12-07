@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+</head>
+<body>
+    
+    <script>
+ 
+        //Using XHR - XMLHTTPREQUEST
+ 
+        var xhr = new XMLHttpRequest(); //1. Create the XHR object
+ 
+        //4. Get back the response if successful
+        xhr.onload = function() {
+            //Request to load data
+            var data = this.responseText
+            console.log('data has arrived', data)
+        }
+ 
+        xhr.open("GET", "http://example.com") //2. put the url we want to retrieve from and the method of request
+ 
+        xhr.send() //3. send the request
+    </script>
+</body>
+</html>

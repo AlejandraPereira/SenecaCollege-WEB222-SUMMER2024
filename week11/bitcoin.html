@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Value</title>
+</head>
+<body>
+    <p>Current Bitcoin Value: <span id="bitcoin-value"></span></p>
+ 
+    <script>
+ 
+        //Update the HTML with the current bitcoin value
+        function updateBitcoinValue(newValue) {
+            var span = document.querySelector("#bitcoin-value")
+            span.innerHTML = newValue //update the innerHTML of the span element
+            //with new bitcoin value
+ 
+            //Update it every minute
+            var oneMinute = 60 * 1000
+            setInterval(getCurrentValue, oneMinute)
+        }
+ 
+        function getCurrentValue() {
+            var xhr = new XMLHttpRequest()
+            var url = "https://blockchain.info/q/24hrprice?cors=true"
+ 
+            xhr.onload = function() {
+                var response = this.responseText
+                var currentValue = `${response} (USD)`
+                updateBitcoinValue(currentValue)
+            }
+ 
+            xhr.onerror = function(e) {
+                updateBitcoinValue("unknown (error, unable to get current value)")
+            }
+ 
+            xhr.open("GET", url)
+ 
+            xhr.send()
+        }
+ 
+        window.onload = function () {
+            getCurrentValue()
+        }
+    </script>
+</body>
+</html>
